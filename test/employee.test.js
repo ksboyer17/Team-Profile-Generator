@@ -1,5 +1,5 @@
 // require Employee module - which we will be testing in this suite
-const Employee = require('../lib/Employee');
+const Employee = require('../library/Employee');
 
 // describe Employee
 describe('Employee', () => {

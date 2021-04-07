@@ -1,7 +1,8 @@
 class Intern {
-	constructor(name, id, email) {
+	constructor(name, id, school, email) {
 		this.name = name;
 		this.id = id;
+		this.school = school;
 		this.email = email;
 	}
 
@@ -11,6 +12,9 @@ class Intern {
 
 	getId() {
 		return this.id;
+	}
+	getSchool() {
+		return this.school;
 	}
 
 	getEmail() {
