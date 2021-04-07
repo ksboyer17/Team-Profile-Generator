@@ -27,6 +27,7 @@ describe('Intern', () => {
       expect(intern.id).toBe(id);
     });
 
+    
 
     it('it sets the email property based on constructor argument', () => {
       const email = 'test@email.com';
