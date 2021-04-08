@@ -3,6 +3,9 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const path = require('path');
 const pageTemplate = require('./output/page-template/template.js');
+const Engineer = require('./library/Engineer.js');
+const Intern = require('./library/Intern.js');
+const Manager = require('./library/Manager');
 
 // use path module to define the path to the output directory
 const OUTPUT_DIR = path.resolve(__dirname, "output")
