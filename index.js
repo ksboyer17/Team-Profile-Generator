@@ -15,36 +15,39 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 teamMembers = [""];
 // init function
 function init() {
-    inquirer.prompt(
-		[{
-			type: 'input',
-			name: 'Name',
-			message:'What is your name?',
-		},
-		{
-			type: 'input',
-			name: 'Email',
-			message:'What is your email?',
-		},
-		{
-			type: 'input',
-			name: 'ID',
-			message:'What is your ID?',
-
-		},
-		{
-			type: 'input',
-			name: 'Office',
-			message:'Where is your office?',
-		}])
-
-	.then((answers) => {
-        console.log(answers);
-
-	})
+	createManager();
 }
 
 	// function to create a manager
+	function createManager(){
+		inquirer.prompt(
+			[{
+				type: 'input',
+				name: 'name',
+				message:'What is your name?',
+			},
+			{
+				type: 'input',
+				name: 'email',
+				message:'What is your email?',
+			},
+			{
+				type: 'input',
+				name: 'id',
+				message:'What is your ID?',
+	
+			},
+			{
+				type: 'input',
+				name: 'office',
+				message:'Where is your office?',
+			}])
+	
+		.then((answers) => {
+			console.log(answers);
+	
+		})
+	}
 		// prompt user with questions needed to satisfy the input for a manager object
 		// .then statement
 			// create a new instance of the Manager class
