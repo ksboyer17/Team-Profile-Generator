@@ -1,4 +1,4 @@
-const Engineer = require('../library/Manager');
+const Manager = require('../library/Manager');
 
 describe('Manager', () => {
 
