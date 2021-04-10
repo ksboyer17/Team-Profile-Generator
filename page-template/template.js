@@ -25,7 +25,7 @@ const teamTemplate = team => {
           <ul class="list-group">
               <li class="list-group-item">ID: ${ engineer.getId() }</li>
               <li class="list-group-item">Email: <a href="mailto:jared@fakemail.com">${ engineer.getEmail() }</a></li>
-              <li class="list-group-item">Office number: ${ engineer.getGithub() }</li>
+              <li class="list-group-item">Github Username: ${ engineer.getGithub() }</li>
           </ul>
       </div>
     </div>
@@ -41,7 +41,7 @@ const teamTemplate = team => {
         <ul class="list-group">
             <li class="list-group-item">ID: ${ intern.getId() }</li>
             <li class="list-group-item">Email: <a href="mailto:jared@fakemail.com">${ intern.getEmail() }</a></li>
-            <li class="list-group-item">Office number: ${ intern.getSchool() }</li>
+            <li class="list-group-item">School: ${ intern.getSchool() }</li>
         </ul>
     </div>
   </div>

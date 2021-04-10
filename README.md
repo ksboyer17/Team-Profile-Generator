@@ -36,8 +36,8 @@
  Test have been run for each individual class to make sure that the application is formidable.
 
  **Link to Github Page:**
-https://github.com/ksboyer17/Readme-Generator -
-[GitHub](https://github.com/ksboyer17/Readme-Generator)
+https://github.com/ksboyer17/Team-Profile-Generator -
+[GitHub](https://github.com/ksboyer17/Team-Profile-Generator)
 
 **Link to Recording**
 https://drive.google.com/file/d/1JpvwgGc-XhrPcPmUQlLd81RtHcAgkwiE/view -
