@@ -40,8 +40,8 @@ https://github.com/ksboyer17/Team-Profile-Generator -
 [GitHub](https://github.com/ksboyer17/Team-Profile-Generator)
 
 **Link to Recording**
-https://drive.google.com/file/d/1JpvwgGc-XhrPcPmUQlLd81RtHcAgkwiE/view -
-[Tutorial Video](https://drive.google.com/file/d/1JpvwgGc-XhrPcPmUQlLd81RtHcAgkwiE/view)
+ https://drive.google.com/file/d/14RyyHziNy56Ot23OKMHdLx2dk2VWrS5n/view-
+[Tutorial Video](https://drive.google.com/file/d/14RyyHziNy56Ot23OKMHdLx2dk2VWrS5n/view)
 
  # For Questions
 
